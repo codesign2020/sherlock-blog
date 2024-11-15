@@ -1,12 +1,12 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: '/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'SherlockLau的博客',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+    'A blog',
+  author: 'Sherlock Lau',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -26,13 +26,6 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
       // icon: 'i-ri-lightbulb-line',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
     },
   ],
   socialLinks: [
