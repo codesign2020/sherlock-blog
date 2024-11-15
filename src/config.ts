@@ -1,7 +1,7 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: '/',
+  website: 'https://super-licorice-0631ca.netlify.app/',
   base: '/',
   title: 'SherlockLau的博客',
   description:
