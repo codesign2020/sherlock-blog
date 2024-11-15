@@ -1,41 +1,13 @@
 Glad you made it here! This is a customizable, feature-rich :link[Astro]{id=withastro/astro} theme for blog and portfolio creation, inspired by the minimalist style of :link[antfu.me]{link=https://antfu.me/ imageUrl=https://antfu.me/favicon.svg}. The design has been refined and its functionality expanded for greater flexibility.
 
-This live demo will guide you through setup and customization, offering helpful insights along the way. Enjoy exploring all the features this theme provides! ✨
+一名崇尚极简主义，热爱美学和科技，专注于新鲜事物探索的UI设计师。
 
-**Optimized Infrastructure**
+我坚信同理心是产生共鸣的基础条件，我愿意以不同的视角和善意的态度去观察这个人生，感悟世间的一切。 欢迎你与我沟通和交流。
 
-- Zero UI Framework
-- [SEO-friendly](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Auto-generated RSS Feed
-- Support for [Subpath Deployment](https://astro-antfustyle-theme.vercel.app/blog/basic-configuration/#configuring-site)
-- Optimized Local Image Handling
-- VS Code Snippets for Quick Coding
-- Well-organized [Project Structure](https://astro-antfustyle-theme.vercel.app/blog/project-structure/)
+![](https://timely-sherbet-135927.netlify.app/hero.jpg)
 
-**Content Management**
+如果想与我探讨任何问题，请发送邮件到 sherlocklau2020@outlook.com .
 
-- Type Safety
-- Markdown & MDX Support
-- Table of Contents Generation
-- [Dynamic OG Image Generation](https://astro-antfustyle-theme.vercel.app/blog/about-open-graph-images/)
-- KaTeX Math Integration
-- [Callouts (Alerts/Admonitions)](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Directive Sugar](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#image-caption--link) for Both Markdown/MDX
-- [Code Syntax Highlighting & Annotations](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Customizable Animated Backgrounds (Take a look around!)
-
-**User Experience**
-
-- [Search Functionality](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#search-functionality)
-- [Accessibility Enhancements](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Smooth View Transitions
-- Responsive Layout
-- Light & Dark Modes Toggle
-- Loading Progress Indicator
-- Social Media Sharing Features
-- [Image Zoom](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#image-zoom) Preview
-
-> More features are continuously being added!
 
 ---
 
