@@ -87,7 +87,7 @@ export const FEATURES: Features = {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
       displayPosition: 'left',
-      displayMode: 'always',
+      displayMode: 'hover',
     },
   ],
   ogImage: [
