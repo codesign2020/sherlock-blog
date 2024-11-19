@@ -1,93 +1,40 @@
 ---
-title: About Open Graph Images
-description: How to configure OG images in the Astro AntfuStyle Theme
-pubDate: 2021-10-02
+title: 关于生活的一点感悟
+description: 这个世界不会停止喧嚣，但我们可以在喧嚣中找到宁静。
+pubDate: 2024-06-07
 lastModDate: ''
 toc: true
 share: true
 ogImage: true
 ---
 
-This post explains how to configure Open Graph (OG) images in the [Astro AntfuStyle Theme](https://github.com/lin-stephanie/astro-antfustyle-theme).
+清晨，我们睁开眼睛，便被世界各地的繁杂事务如同狂风暴雨般迎面袭来。我们被迫接受各种信息，无论是社交媒体的热点，还是新闻的滚动更新，它们充斥着我们的思绪，填满了我们的清晨。
 
-## What Are Open Graph Images?
+在这样的忙碌中，我们错过了日出的壮丽，忽略了花朵的绽放，甚至忘记了风的轻拂。又一个忙碌的日子匆匆开始了。
 
-OG images, short for Open Graph images, are metadata images used by social media platforms to visually represent a webpage when shared. Originating from Facebook's [Open Graph protocol](https://ogp.me/),  they make shared content more engaging.
+![](https://images.unsplash.com/photo-1505941625782-5f8710bdd9f3?q=80&w=3847&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-Platforms like Facebook, Twitter, LinkedIn, and Discord use these images. While Twitter uses its own protocol ([Twitter Cards](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards)), "OG image" is often used as a general term for these images.
+这一切似乎与我们若即若离，既无关又紧密相连。互联网的便利让我们迅速地了解世界，却也可能让我们逐渐淡忘了自己内心的世界。
 
-## Configuring OG Images
+袁师懋道长曾言，真正的逍遥在于找到一片属于自己的精神空间。在这片空间里，我们才能拥有真正的自由，而物质世界则无法给予我们这样的自由。因为这里不是神仙的居所，而是凡人的领域，我们无法逃离日常的琐碎和世俗的纷扰。
 
-There are three ways to configure OG images in this theme, listed by priority:
+或许，那些真正“得道”、“悟道”的人，就是领悟到了这个道理，找到了自己的精神家园，从而活得清醒而自在。然而，对于我们来说，这并非易事。
 
-**Method 1**: Specify the `ogImage` field in the Markdown/MDX frontmatter with a custom image, which should be saved in `/public/og-images/`. For example:
+我们习惯于在互联网上寻求答案，而非独立思考。我们开始认同视频博主和营销号的观点，轻信那些夸张的标题文章，并试图将它们传播给周围的人。我们观察那些看似自律、勤奋、上进的人，并以此为榜样，然后反思自己，感到焦虑不安。我们关注那些与我们有着相似人际关系和家庭背景的人的生活，比较自己，再次感到焦虑。
 
-```md title='src/content/blog/about-open-graph-images.md' {5}
----
-title: About Open Graph Images
+我们开始失去对时间的感知，对过去的记忆，甚至对自己的认识，只剩下无谓的内耗。
 
-# The specified OG image must be saved: `public/og-images/specified-og-image.png`
-ogImage: specified-og-image.png
----
-```
+如果鱼真的只有七秒的记忆，那么它们无疑是幸福的，因为它们每一刻都能享受新生的喜悦，不受过往的羁绊，不为他人的忧虑所扰，只在水中自由自在地游弋，旁观着外界那些焦虑不安的人们。
 
-> [!warning]
-> If the image isn’t found in `/public/og-images/`, a fallback `og-image.png` will be used.
+然而，我们并非鱼，我们的记忆无法一键清空，我们的世界充满了连续性和责任。但我们可以选择，选择如何在信息的海洋中航行，如何在繁杂的事务中找到自己的节奏。
 
-**Method 2**: Set `ogImage` to `true` or remove the field to automatically generate an OG image, saved in `/public/og-images/`. The generated filename will match the Markdown/MDX file, or the directory if it's named `index.md` or `index.mdx`. For example:
+或许，真正的逍遥并非逃避，而是在这纷繁世界中寻得一方净土，构建自己的精神家园。在这个家园里，我们可以思考，可以沉淀，可以与自己对话。这里没有热搜，没有社交媒体的喧嚣，只有我们自己，和我们对世界的理解。
 
-```mdx title='src/pages/blog/index.mdx' {5}
----
-title: Blog
+我们可以选择在清晨醒来时，不看手机，而是望向窗外，看看日出的霞光，感受花儿的绽放，聆听风的低语。我们可以选择在忙碌的生活中，留出一片空白，这片空白不是用来填充的，而是用来呼吸的，用来感受生活的。
 
-# Auto-generated OG image is saved: `public/og-images/blog.png`
-ogImage: true
----
-```
+袁师懋道长所说的逍遥，并不是要我们逃离现实，而是要我们在现实中找到自己的位置，找到那个可以让心灵栖息的地方。在这个地方，我们可以放下世俗的包袱，可以追求内心的平和，可以找到真正的自由。
 
-> [!warning]
-> OG images won’t generate if the frontmatter has `redirect`, `draft: true`, or is missing the `title` field.
+这个世界不会停止喧嚣，但我们可以在喧嚣中找到宁静。我们可以选择如何对待信息，如何对待生活，如何对待自己。我们不必羡慕鱼的七秒记忆，因为我们可以创造属于自己的记忆，我们可以选择记住那些美好的，忘记那些不快的。
 
-**Method 3**: Set `ogImage` to `false` to prevent generation and use the fallback OG image instead. A fallback OG image named `og-image.png` is stored in `/public/og-images/`, ensuring that any page shared on social platforms displays an image.  
-
-> [!important]
-> If you need to regenerate the fallback OG image or after modifying `FEATURE.ogImage`, delete `og-image.png` to create a new fallback image.
-
-## Template for Auto-Generated OG Images
-
-The template (located in `plugins/og-template/markup.ts`) for auto-generated OG images is built with HTML + UnoCSS and processed by  :link{id=natemoo-re/satori-html style=github}. It takes three parameters:
-
-- `authorOrBrand`: Defined by `FEATURE.image[1].authorOrBrand` (also for fallback image) and displayed above the `title`.
-- `title`: Determined by the `title` field in the Markdown/MDX frontmatter; for fallback images, `FEATURE.image[1].fallbackTitle` is used.
-- `bgType`: Set in the MDX frontmatter within `src/pages/`, using `FEATURE.image[1].fallbackBgType`(also for fallback image) if not set or set to `false`.
-
-For details on how to replace the logo in the template, refer to [Advanced Configuration - Customizing Logo](https://astro-antfustyle-theme.vercel.app/blog/advanced-configuration/#customizing-logo).
-
-"Below are the OG images generated with `bgType` set to 'plum', 'rose', 'dot', and 'particle':
-
-![](../../assets/about-open-graph-images/plum.png)
-
-![](../../assets/about-open-graph-images/rose.png)
-
-![](../../assets/about-open-graph-images/dot.png)
-
-![](../../assets/about-open-graph-images/particle.png)
-
-## How This Theme Automatically Generates OG Images
-
-This theme uses a custom remark plugin (located in [`plugins/remark-generate-og-image.ts`](https://github.com/lin-stephanie/astro-antfustyle-theme/blob/main/plugins/remark-generate-og-image.ts)) to handle the automatic generation of OG images. The decision to use a remark plugin instead of creating [Astro endpoints](https://liruifengv.com/posts/astro-auto-gen-og-image/) was made for the following reasons:
-
-- Each Markdown/MDX file is processed by the remark plugin, allowing the logic for automatically generating OG images to be fully contained within the plugin. If you used endpoints, multiple static file endpoints might be required to generate OG images for each page, which adds complexity. _This is why the theme uses `.mdx` in `src/pages/` to generate pages_.
-- The remark plugin can easily access the necessary parameters for the template. In an Astro project, a configured remark plugin receives the frontmatter for each Markdown/MDX file ([`file.data.astro.frontmatter`](https://docs.astro.build/en/guides/markdown-content/#modifying-frontmatter-programmatically)). With endpoints, under [dynamic routing](https://docs.astro.build/en/guides/routing/#static-ssg-mode), you’d need to use the [`getStaticPaths` API](https://docs.astro.build/en/reference/api-reference/#getstaticpaths) and include dynamic path parameters and template data in the return values.
-- OG images can be centrally managed and previewed in the development environment. Since Astro's [remark and rehype pipelines run when content is rendered](https://docs.astro.build/en/guides/content-collections/#modifying-frontmatter-with-remark), meaning you can trigger OG image generation in the development environment. Using endpoints, however, would only allow you to see the output in the build directory after project completion, with no option to store them in a centralized location.
-
-## Extra Tips
-
-Auto-generated OG images are compressed with :link{id=lovell/sharp style=github}. For custom images, consider [manual compression](https://astro-antfustyle-theme.vercel.app/blog/managing-image-assets/#image-compression). 
-
-If an image with the same name as the Markdown/MDX file (or the directory for `index.md/index.mdx`) already exists in `/public/og-images/`, it won’t be regenerated. To regenerate it, manually delete the corresponding image from the `/public/og-images/` directory.
-
-If you want to globally disable the auto-generation, set `FEATURES.ogImage` to `false` or `[false, {...}]` in `src/config.ts`.
-
-Thank you for reading. Happy coding! 💃
+让我们在这个快节奏的世界中，慢下来，深呼吸，找到自己的节奏，找到自己的世界。让我们在每一个清晨醒来时，都能感受到生活的美好，而不是被生活所裹挟。让我们在每一个夜晚入睡前，都能对自己说一声，今天，我活得很自由。
 

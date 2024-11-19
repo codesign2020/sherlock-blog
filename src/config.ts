@@ -7,8 +7,8 @@ export const SITE: Site = {
   description:
     'A blog',
   author: 'Sherlock Lau',
-  lang: 'en',
-  ogLocale: 'en_US',
+  lang: 'zh',
+  ogLocale: 'zh_CN',
 }
 
 export const UI: Ui = {
@@ -87,7 +87,7 @@ export const FEATURES: Features = {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
       displayPosition: 'left',
-      displayMode: 'hover',
+      displayMode: 'always',
     },
   ],
   ogImage: [
