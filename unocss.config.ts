@@ -101,7 +101,7 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        sans: 'Inter:400,600,800',
+        sans: 'Montserrat Alternates:500,600,800',
         mono: 'DM Mono:400,600',
         condensed: 'Roboto Condensed',
         customFontName: 'Montserrat Alternates',
